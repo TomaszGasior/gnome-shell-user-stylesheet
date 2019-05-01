@@ -1,0 +1,6 @@
+{
+    "name": "User stylesheet — gnome-shell.css",
+    "description": "Load custom CSS stylesheet from ~/.config/gnome-shell/gnome-shell.css",
+    "uuid": "user-stylesheet@tomaszgasior.pl",
+    "shell-version": [ "3.32.1" ]
+}
