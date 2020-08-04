@@ -1,0 +1,10 @@
+stage {
+    /* use 100% of font size from St.ThemeContext.get_font() */
+    /* instead of 11pt hardcoded in GNOME Shell stylesheet */
+    font-size: 100%;
+
+    /* use font family from St.ThemeContext.get_font() */
+    /* instead of Cantarell hardcoded in GNOME Shell < 3.36 stylesheet */
+    /* yep, that's zero... don't ask why it works */
+    font-family: 0;
+}

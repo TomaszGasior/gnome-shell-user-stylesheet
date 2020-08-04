@@ -1,0 +1,12 @@
+{
+    "uuid": "user-stylesheet@tomaszgasior.pl",
+    "name": "User style sheet & font",
+    "description": "Load custom style sheet from ~/.config/gnome-shell/gnome-shell.css. Use GTK font family and font size from GNOME Tweaks in GNOME Shell.",
+    "url": "https://github.com/TomaszGasior/gnome-shell-user-stylesheet-and-font",
+    "version": 1,
+    "shell-version": [
+        "3.36",
+        "3.34",
+        "3.28"
+    ]
+}
