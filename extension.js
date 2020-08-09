@@ -7,7 +7,7 @@ const GNOME_DESKTOP_FONT_KEY = 'font-name';
 let themeContext = St.ThemeContext.get_for_stage(global.stage);
 let stylesheetFile;
 let desktopSettings;
-let desktopSettingsChangedFunc;
+let desktopSettingsChangedId;
 
 function _setShellFont()
 {
@@ -19,16 +19,16 @@ function _setShellFont()
 
     desktopSettings = Gio.Settings.new(GNOME_DESKTOP_SCHEMA);
 
-    desktopSettingsChangedFunc = function() {
+    let desktopSettingsChangedFunc = function() {
         let font = Pango.FontDescription.from_string(
             desktopSettings.get_string(GNOME_DESKTOP_FONT_KEY)
         );
-    
+
         themeContext.set_font(font);
     };
 
     desktopSettingsChangedFunc();
-    desktopSettings.connect('changed', desktopSettingsChangedFunc);
+    desktopSettingsChangedId = desktopSettings.connect('changed', desktopSettingsChangedFunc);
 }
 
 function _unsetShellFont()
@@ -40,7 +40,7 @@ function _unsetShellFont()
     let font = Pango.FontDescription.from_string('sans-serif 10');
 
     themeContext.set_font(font);
-    desktopSettings.disconnect('changed', desktopSettingsChangedFunc);
+    desktopSettings.disconnect('changed', desktopSettingsChangedId);
 }
 
 function _loadCustomStyleheet()
