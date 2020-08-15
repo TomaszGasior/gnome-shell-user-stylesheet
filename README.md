@@ -9,7 +9,20 @@ Also, this extension applies GTK font name and font size to GNOME Shell.
 Installation
 ---
 
-TODO
+This extension can be installed from official repository with GNOME Shell
+extensions in your web browser:
+https://extensions.gnome.org/extension/3414/user-stylesheet-font.
+
+Also, it is possible to install the extension from command line:
+
+```bash
+dbus-send --type=method_call --dest=org.gnome.Shell /org/gnome/Shell \
+    org.gnome.Shell.Extensions.InstallRemoteExtension string:'user-stylesheet@tomaszgasior.pl'
+```
+
+Alternatively, you can copy all files from this repository to
+`~/.local/share/gnome-shell/extensions/user-stylesheet@tomaszgasior.pl`
+directory and restart GNOME Shell.
 
 How to use custom style sheet
 ---
