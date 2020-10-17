@@ -1,0 +1,20 @@
+{
+	"editor.insertSpaces": true,
+	"editor.rulers": [80, 120],
+	"editor.tabSize": 4,
+	"editor.wordWrap": "on",
+
+	"files.exclude": {
+		".hidden": true,
+		"*.code-workspace": true,
+		"**/.gitignore": true,
+		"**/.vscode": true,
+	},
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+
+	"search.exclude": {
+	},
+}
