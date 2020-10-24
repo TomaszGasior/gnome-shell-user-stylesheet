@@ -7,7 +7,7 @@
 	"files.exclude": {
 		".hidden": true,
 		"*.code-workspace": true,
-		"**/.gitignore": true,
+		"**/.git*": true,
 		"**/.vscode": true,
 	},
 	"files.eol": "\n",
