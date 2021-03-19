@@ -79,3 +79,11 @@ Custom styles examples
     padding-right: 0;
 }
 ```
+
+### Change font in calendar menu
+
+```css
+.calendar .calendar-day-base {
+    font-size: 100%;
+}
+```
