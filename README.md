@@ -34,7 +34,7 @@ How to use custom style sheet
   `gnome-shell.css` file. Just press Alt+F2 and type `rt`.
 
 To make writing CSS code easier you can take a look at GNOME Shell built-in theme:
-https://gitlab.gnome.org/GNOME/gnome-shell/-/tree/master/data/theme.
+https://gitlab.gnome.org/GNOME/gnome-shell/-/tree/main/data/theme.
 
 How to use custom font
 ---
