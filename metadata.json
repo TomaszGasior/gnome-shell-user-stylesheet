@@ -3,8 +3,9 @@
     "name": "User style sheet & font",
     "description": "Load custom style sheet from ~/.config/gnome-shell/gnome-shell.css. Use GTK font family and font size from GNOME Tweaks in GNOME Shell.",
     "url": "https://github.com/TomaszGasior/gnome-shell-user-stylesheet-and-font",
-    "version": 4,
+    "version": 5,
     "shell-version": [
+        "42",
         "41",
         "40",
         "3.38",
