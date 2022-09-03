@@ -5,6 +5,7 @@
     "url": "https://github.com/TomaszGasior/gnome-shell-user-stylesheet-and-font",
     "version": 5,
     "shell-version": [
+        "43",
         "42",
         "41",
         "40",
