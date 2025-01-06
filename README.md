@@ -1,4 +1,4 @@
-User style sheet & font — GNOME Shell extension
+User style sheet — GNOME Shell extension
 ===
 
 This extension loads CSS file from `~/.config/gnome-shell/gnome-shell.css`
