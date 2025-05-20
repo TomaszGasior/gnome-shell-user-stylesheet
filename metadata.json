@@ -3,9 +3,10 @@
     "name": "User style sheet",
     "description": "Load custom style sheet from ~/.config/gnome-shell/gnome-shell.css.",
     "url": "https://github.com/TomaszGasior/gnome-shell-user-stylesheet",
-    "version": 11,
+    "version": 12,
     "shell-version": [
         "46",
-        "47"
+        "47",
+        "48"
     ]
 }
